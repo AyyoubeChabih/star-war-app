@@ -1,0 +1,27 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  margin: 20px;
+  padding: 0 10px;
+  height: 30px;
+  border-radius: 30px;
+}
+
+.list-item .item-content {
+  color: #d2d2d2;
+  font-weight: 400;
+  flex: 1 1;
+  text-align: center;
+}
+
+.list-item:hover {
+  background: #20cdca;
+  box-shadow: 0px 10px 10px #bfbfbf9c;
+  cursor: pointer;
+}
+
+.list-item:hover .item-content {
+  color: #fff;
+}

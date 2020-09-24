@@ -1,0 +1,24 @@
+.item-view {
+  background-color: #20cdca;
+  color: #d2d2d2;
+  border-radius: 10px;
+  width: 74px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.3s;
+  font-weight: 600;
+  font-size: 26px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 15px auto;
+}
+
+.item-view:hover {
+  background: #004cffc7;
+  color: white;
+  width: 80px;
+  height: 38px;
+  text-decoration: none;
+}

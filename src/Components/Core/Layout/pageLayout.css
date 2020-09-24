@@ -1,0 +1,11 @@
+.main-page {
+  border: 8px solid #cacaca;
+  border-radius: 50px;
+  padding: 10px 80px;
+  width: 900px;
+}
+
+.main-page.large {
+  width: 75%;
+  margin: 0 auto;
+}

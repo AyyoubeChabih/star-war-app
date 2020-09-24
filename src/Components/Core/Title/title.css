@@ -1,0 +1,9 @@
+.page-title {
+  color: #cacaca;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.page-title.bold {
+  font-weight: 800;
+}
